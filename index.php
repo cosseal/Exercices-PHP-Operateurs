@@ -26,8 +26,8 @@ if($a $b)
 
 
 //Cinquieme ligne
-$arr1 = ["machin", "truc"];
-$arr2 = ["truc", "machin"];
+$arr1 = ["poire", "pomme"];
+$arr2 = ["pomme", "poire"];
 if($arr1 $arr2)
 {
     echo "<br><br>les tableaux ont le même contenu";
