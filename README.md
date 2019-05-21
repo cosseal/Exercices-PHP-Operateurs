@@ -19,18 +19,19 @@ En php, comme en javascript, il existe de nombreux opérateurs :
     * Multiplier deux valeurs
     / Division
     % Modulo
-    ** Exponentiel ( On le trouve également sous la forme d'une fonction php native : pow($nombre1,$nombre2)
+    + ** Exponentiel ( On le trouve également sous la forme d'une fonction php native : pow($nombre1,$nombre2)
 
 
 - Les opérateurs pour assigner des valeurs
 
-
+```
     $x=$y : Assigne la valeur de y à x
     $x +=$y : Addition ( s'écrit aussi : $x=$x+$y )
     $x -=$y : Soustraction ( s'écrit aussi : $x=$x-$y )
     $x *=$y : Multiplication ( s'écrit aussi : $x=$x*$y )
     $x /=$y : Division ( s'écrit aussi : $x=$x/$y )
     $x %=$y : Modulo ( s'écrit aussi : $x=$x%$y )
+    ```
 
 
 
