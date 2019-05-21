@@ -31,13 +31,13 @@ En php, comme en javascript, il existe de nombreux opérateurs :
     $x *=$y : Multiplication ( s'écrit aussi : $x=$x*$y )
     $x /=$y : Division ( s'écrit aussi : $x=$x/$y )
     $x %=$y : Modulo ( s'écrit aussi : $x=$x%$y )
-    ```
+```
 
 
 
 - Les opérateurs utilisés dans les conditions, pour comparer deux valeurs entre elles
 
-
+```
     == Verifie que deux valeurs sont identiques ( $x==$y )
     === Verifie que deux valeurs sont identiques et du même type ( $x===$y )
     != Verifie que deux valeurs sont différentes ( $x!=$y )
@@ -47,6 +47,8 @@ En php, comme en javascript, il existe de nombreux opérateurs :
     < Inférieur à ( $x<$y )
     >= Supérieur ou égal
     <= Inférieur ou égal
+    
+```    
 
     Ces opérateurs sont similaires à ceux utilisés en javascript, mais php n'applique pas de conversion de type pour ==
     ou != contrairement à javascript.
@@ -54,36 +56,38 @@ En php, comme en javascript, il existe de nombreux opérateurs :
 
 - Les opérateurs pour incrémenter/décrémenter les variables
 
+```
     ++$x : Incrémente x de 1 , puis retourne la valeur de $x
     $x++ : Retourne la valeur de $x puis incrémente de 1
     --$x : Décrémente x de 1, puis retourne la valeur de $x
     $x-- : Retourne la valeur de $x, puis décrémente de 1
-
+    
+```
 
 - Les opérateurs logiques ( pour combiner plusieurs conditions )
 
-
+```
     "and" ou "&&" ( $x==1 and $y==1 ) La condition est vrai si $x est égal à 1 et si $y est égal à 1
     "or" ou "||" ( $x==1 || $y==1 ) La condition est vrai si $x est égal à 1 OU si $y est égal à 1
     "xor" ( $x==1 xor $y == 1 ) La condition est vrai si $x est égal à 1 ou si $y est égal à 1 mais pas si les deux variables sont égales à 1
     "!" ( !$x ) La condition est vrai si $x ne vaux pas true ( utilisé pour les valeurs booleenes )
-
+```
 
 - Les opérateurs pour les chaines de caracteres
 
-
+```
     "." Concatenation : $txt1.$txt2 , Fusionne deux chaines de caracteres ( équivalent en js : "chose"+"truc" )
     ".=" Ajout à la fin : $txt .=$txt2 , Ajoutera le contenu textuelde $txt2 à la fin de $txt1
-
+```
 
 - Les opérateurs spécifiques pour les tableaux
 
-
+```
     "+" Fusionne deux tableaux
     "==" Verifie que deux tableaux sont identiques
     "===" Verifie que deux tableaux sont identiques, que leurs valeurs communes ont le meme type et que les clefs/valeurs
     ont le même ordre
     "!=" ou "<>" Verifie que deux tableaux ne sont pas identiques
-
+```
 
 
